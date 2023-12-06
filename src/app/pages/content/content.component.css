@@ -1,0 +1,31 @@
+.container__content {
+  /* border: 1px solid white; */
+  width: 100%;
+  height: 100vh;
+
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .content__cover {
+  border: 1px solid grey;
+} */
+
+.content__cover img {
+  width: 500px;
+  border: 5px solid rgb(108, 105, 105);
+  border-radius: 10px;
+}
+
+.content__description {
+  margin-top: 15px;
+  max-width: 700px;
+  text-align: center;
+}
+
+.content__description p{
+  color: rgb(163, 162, 162);
+}

@@ -1,0 +1,6 @@
+header {
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
