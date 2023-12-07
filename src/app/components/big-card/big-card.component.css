@@ -1,13 +1,14 @@
 .container__big-card {
   /* border: 2px solid yellow; */
   width: 400px;
-  height: 500px;
+  /* height: 500px; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 50px;
+  margin-bottom: 100px;
 }
 
 .big-card__title h1{
@@ -25,6 +26,8 @@
 
 .big-card__photo img {
   width: 100%;
+  border: 3px solid grey;
+  border-radius: 12px;
 }
 
 

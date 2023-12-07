@@ -9,7 +9,7 @@ import { dataFakie } from 'src/app/components/data/dataFakie';
 })
 export class ContentComponent implements OnInit {
   photoCover:string = '';
-  contentTitle:string = 'MINHA NOTÍCIA';
+  contentTitle:string = '';
   contentDescription:string = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, culpa rerum quos commodi recusandae reprehenderit earum totam laboriosam fugit ad architecto quam ullam sint consectetur exercitationem! Magnam, et dolor fugit porro ut impedit odio sed omnis neque, cumque, eum totam.';
   private id:string | null = "0";
 

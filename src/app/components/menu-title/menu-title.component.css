@@ -8,9 +8,22 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .container__menu-title hr {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+
+@media (max-width: 1200px) {
+  .container__menu-title h1 {
+    font-size: 80px;
+  }
+}
+@media (max-width: 768px) {
+  .container__menu-title h1 {
+    font-size: 60px;
+  }
 }
